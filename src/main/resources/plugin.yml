@@ -1,0 +1,19 @@
+name: NoToolDamage
+version: 1.0.0
+author: pokechu22
+url: https://redd.it/4a1tjf
+main: pokechu22.NoToolDamagePlugin
+description: |
+    Disables durability loss to tools and armor while in specific (admin-defined) regions.
+
+commands: 
+  notooldamage: 
+    description: NoToolDamage configuration and info
+    usage: |
+      /<command> info: Info about this plugin
+      /<command> reload: Reload the configuration
+
+permissions:
+  notooldamage.reloadConfig:
+    default: op
+    description: Allows a player (or the server console) to reload the configuration.
